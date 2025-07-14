@@ -3,6 +3,17 @@
     /* margin: 0px;
     padding: 0px; */
     box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.panda-btn {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 15px 25px;
+    color: white;
+    font-weight: 500px;
+    border: none;
+    border-radius: 6px;
+    margin: 50px;
 }
 
 .container {
@@ -10,9 +21,17 @@
     margin: auto;
 }
 
+.common-section-title {
+    font-weight: 600px;
+    font-size: 36px;
+
+}
+
+/* nav bar */
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 15px 0px;
 }
 .search-parent {
     position: relative;
@@ -55,6 +74,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 28px;
+    border-radius: 10px;
+    margin-top: 15px;
 }  
 
 .banner h1 {
@@ -67,13 +89,55 @@ nav {
     color: rgb(78, 78, 78);
     font-size: 16px;
     font-weight: 400;
+    max-width: 460px;
 }
-.price {
-    color: rgb(255, 19, 111);
-    font-size: 41px;
-    font-weight: 500;
+.banner-price {
+    color: #FF136F;
+    font-size: 52px;
+    font-weight: bold;
+    padding: 20px;
+    display: block;
 }
 .banner img {
     width: 402px;
     height: 378px;
 }
+.categories{
+    max-width: 1130px;
+    margin: 64px 0;
+}
+.categories-card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.category-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+.category-card h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.category-card:nth-child(1) {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    
+}
+.category-card:nth-child(2) {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.category-card:nth-child(3) {
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+
