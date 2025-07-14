@@ -183,3 +183,22 @@ nav {
 .shoes-backpack-parent {
     background-color: #F4F4F4;
 }
+/* contact us */
+.contact-us-parent{
+    background: rgb(255, 242, 241);
+    text-align: center;
+    padding: 25px 15px;
+}
+.contact-inp-btn-parent {
+    display: flex;
+    justify-content: center;
+}
+.contact-inp-btn-parent input {
+    border: none;
+    padding: 15px 150px;
+}
+
+.contact-inp-btn-parent .panda-btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
